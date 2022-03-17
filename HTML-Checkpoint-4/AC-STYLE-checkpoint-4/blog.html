@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexor</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header id="header" class="header">
+    <section class="container flex justify-between align-center">
+      <div class="brand">
+        <a href="#/">
+          <h2>Flexor</h2>
+        </a>
+      </div>
+      <label class="bars" for="toogle">
+        <i class="fa fa-bars"></i>
+      </label>
+      <input id="toogle" type="checkbox">
+      <nav class="header-nav">
+        <ul class="flex sm-column">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#/">About</a>
+          </li>
+          <li>
+            <a href="#/">Services</a>
+          </li>
+          <li>
+            <a href="#/">Portfolio</a>
+          </li>
+          <li>
+            <a href="#/">Team</a>
+          </li>
+          <li>
+            <a href="#/">Pricing</a>
+          </li>
+          <li>
+            <a class="active" href="#/">Blog</a>
+          </li>
+          <li class="drop-nav">
+            <a href="#/">Drop Down<i class="fa fa-angle-down"></i></a>
+            <ul class="drop-down">
+              <li>
+                <a href="#">Drop Down 1</a>
+              </li>
+              <li>
+                <a href="#">Drop Down 2</a>
+              </li>
+              <li class="active">
+                <a href="#">Drop Down 3 <i class=" fa fa-angle-right"></i></a>
+              </li>
+              <li>
+                <a href="#">Drop Down 4</a>
+              </li>
+              <li>
+                <a href="#">Drop Down 5</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+  <main>
+    <section class="hero-blog padding-1">
+      <div class="container">
+        <h5><span class="active">Home</span> / Blog</h5>
+        <h2>Blog</h2>
+      </div>
+    </section>
+    <section class="blog-gallery">
+      <div class="flex wrap justify-between container">
+        <article class="blog-box flex-30 sm-flex-49 ex-sm-100">
+          <figure class="font-0">
+            <img class="width-full" src="./assets/media/blog-1.jpg" alt="blog-image">
+          </figure>
+          <div class="blog-box-text">
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, reiciendis.</h3>
+            <h5 class="padding-0">
+              <i class="fa fa-male"></i> John Doe &nbsp;&nbsp;
+              <i class="fa fa-calendar"></i> <time datetime="01-01-2020">01 Jan, 2020</time>
+            </h5>
+            <p>Lorem ipsum, dolor sit amet conse ctetur adipis icing elit. Laborum qui totam ullam quae hic amet iste
+              omnis blanditiis veniam eos molestias, </p>
+            <div class="flex justify-end">
+              <button class="btn">Read More</button>
+            </div>
+          </div>
+        </article>
+        <article class="blog-box flex-30 sm-flex-49 ex-sm-100">
+          <figure class="font-0">
+            <img class="width-full" src="./assets/media/blog-2.jpg" alt="blog-image">
+          </figure>
+          <div class="blog-box-text">
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, reiciendis.</h3>
+            <h5 class="padding-0">
+              <i class="fa fa-male"></i> John Doe &nbsp;&nbsp;
+              <i class="fa fa-calendar"></i> <time datetime="01-01-2020">01 Jan, 2020</time>
+            </h5>
+            <p>Lorem ipsum, dolor sit amet conse ctetur adipis icing elit. Laborum qui totam ullam quae hic amet iste
+              omnis blanditiis veniam eos molestias, </p>
+            <div class="flex justify-end">
+              <button class="btn">Read More</button>
+            </div>
+          </div>
+        </article>
+        <article class="blog-box flex-30 sm-flex-49 ex-sm-100">
+          <figure class="font-0">
+            <img class="width-full" src="./assets/media/blog-3.jpg" alt="blog-image">
+          </figure>
+          <div class="blog-box-text">
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, reiciendis.</h3>
+            <h5 class="padding-0">
+              <i class="fa fa-male"></i> John Doe &nbsp;&nbsp;
+              <i class="fa fa-calendar"></i> <time datetime="01-01-2020">01 Jan, 2020</time>
+            </h5>
+            <p>Lorem ipsum, dolor sit amet conse ctetur adipis icing elit. Laborum qui totam ullam quae hic amet iste
+              omnis blanditiis veniam eos molestias, </p>
+            <div class="flex justify-end">
+              <button class="btn">Read More</button>
+            </div>
+          </div>
+        </article>
+        <article class="blog-box flex-30 sm-flex-49 ex-sm-100">
+          <figure class="font-0">
+            <img class="width-full" src="./assets/media/blog-4.jpg" alt="blog-image">
+          </figure>
+          <div class="blog-box-text">
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, reiciendis.</h3>
+            <h5 class="padding-0">
+              <i class="fa fa-male"></i> John Doe &nbsp;&nbsp;
+              <i class="fa fa-calendar"></i> <time datetime="01-01-2020">01 Jan, 2020</time>
+            </h5>
+            <p>Lorem ipsum, dolor sit amet conse ctetur adipis icing elit. Laborum qui totam ullam quae hic amet iste
+              omnis blanditiis veniam eos molestias, </p>
+            <div class="flex justify-end">
+              <button class="btn">Read More</button>
+            </div>
+          </div>
+        </article>
+        <article class="blog-box flex-30 sm-flex-49 ex-sm-100">
+          <figure class="font-0">
+            <img class="width-full" src="./assets/media/blog-5.jpg" alt="blog-image">
+          </figure>
+          <div class="blog-box-text">
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, reiciendis.</h3>
+            <h5 class="padding-0">
+              <i class="fa fa-male"></i> John Doe &nbsp;&nbsp;
+              <i class="fa fa-calendar"></i> <time datetime="01-01-2020">01 Jan, 2020</time>
+            </h5>
+            <p>Lorem ipsum, dolor sit amet conse ctetur adipis icing elit. Laborum qui totam ullam quae hic amet iste
+              omnis blanditiis veniam eos molestias, </p>
+            <div class="flex justify-end">
+              <button class="btn">Read More</button>
+            </div>
+          </div>
+        </article>
+        <article class="blog-box flex-30 sm-flex-49 ex-sm-100">
+          <figure class="font-0">
+            <img class="width-full" src="./assets/media/blog-6.jpg" alt="blog-image">
+          </figure>
+          <div class="blog-box-text">
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, reiciendis.</h3>
+            <h5 class="padding-0">
+              <i class="fa fa-male"></i> John Doe &nbsp;&nbsp;
+              <i class="fa fa-calendar"></i> <time datetime="01-01-2020">01 Jan, 2020</time>
+            </h5>
+            <p>Lorem ipsum, dolor sit amet conse ctetur adipis icing elit. Laborum qui totam ullam quae hic amet iste
+              omnis blanditiis veniam eos molestias, </p>
+            <div class="flex justify-end">
+              <button class="btn">Read More</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="page-numbers flex justify-center align-center padding-2">
+      <div><i class="fa fa-angle-left"></i></div>
+      <div>1</div>
+      <div class="page-active">2</div>
+      <div>3</div>
+      <div><i class="fa fa-angle-right"></i></div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <section class="padding-2 footer-top">
+        <div class="container flex justify-between sm-wrap ex-sm-wrap">
+          <div class="flex-20 sm-flex-35 ex-sm-100">
+            <a href="index.html">
+              <h2>Flexor</h2>
+            </a>
+            <address class="padding-0">A108 Adam Street New York, NY 535012, United States</address>
+            <div class="padding-1">
+              <h5>Phone:</h5> <a href="tel:+1 555-666-7777">+1 555-666-7777</a><br>
+              <h5>Email:</h5><a href="emailto:info@example.com"> info@example.com</a>
+            </div>
+          </div>
+          <div class="flex-18 sm-flex-55 ex-sm-100">
+            <h4>Useful Links</h4>
+            <ul class="padding-0">
+              <li>
+                <a href="#/"><i class="fa fa-angle-right"></i> Home</a>
+              </li>
+              <li>
+                <a href="#/"><i class="fa fa-angle-right"></i> About Us</a>
+              </li>
+              <li>
+                <a href="#/"><i class="fa fa-angle-right"></i> Services</a>
+              </li>
+              <li>
+                <a href="#/"><i class="fa fa-angle-right"></i> Terms of Service</a>
+              </li>
+              <li>
+                <a href="#/"><i class="fa fa-angle-right"></i> Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex-18 sm-flex-35 ex-sm-100">
+            <h4>Our Services</h4>
+            <ul class="padding-0">
+              <li>
+                <a href="#/"><i class="fa fa-angle-right"></i> Web Design</a>
+              </li>
+              <li>
+                <a href="#/"><i class="fa fa-angle-right"></i> Web Development</a>
+              </li>
+              <li>
+                <a href="#/"><i class="fa fa-angle-right"></i> Product Management</a>
+              </li>
+              <li>
+                <a href="#/"><i class="fa fa-angle-right"></i> Marketing</a>
+              </li>
+              <li>
+                <a href="#/"><i class="fa fa-angle-right"></i> Graphic Design</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex-40 sm-flex-55 ex-sm-100">
+            <h4>Join Our Newsletter</h4>
+            <p class="padding-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, officia!</p>
+            <form class="footer-form" action="server url" method="email">
+              <fieldset>
+                <input type="email" name>
+                <button class="btn">Subscribe</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+      <div class="footer-bottom container flex justify-between align-center sm-column">
+        <div class=" foot-copyright padding-1">
+          <p>&copy; Copyright <strong>Flexor</strong>. All rights reserved.</p>
+          <p>Designed by <span class=" active">BootstrapMade</span></p>
+        </div>
+        <div class="foot-icons flex padding-1">
+          <div>
+            <a href="#/"><i class=" fa fa-facebook"></i></a>
+          </div>
+          <div>
+            <a href="#/"><i class="fa fa-twitter"></i></a>
+          </div>
+          <div>
+            <a href="#/"><i class="fa fa-linkedin"></i></a>
+          </div>
+          <div>
+            <a href="#/"><i class="fa fa-youtube"></i></a>
+          </div>
+          <div>
+            <a href="#/"><i class="fa fa-skype"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>
